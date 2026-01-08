@@ -6,7 +6,7 @@ This repository includes modular Python code and a Jupyter notebook to demonstra
 
 ---
 
-##  Project Overview
+###  Project Overview
 
 This project analyzes a dataset of movies to answer questions like:
 
@@ -18,9 +18,10 @@ The code is organized into reusable modules for loading, cleaning, analyzing, an
 
 ---
 
-## Repository Structure
+### Repository Structure
 
-.
+```
+Movie-data-EDA-and-Visualization-/
 ├── data/
 │   └── movies.csv          # Movie dataset
 ├── src/                    # Python modules
@@ -35,29 +36,28 @@ The code is organized into reusable modules for loading, cleaning, analyzing, an
 ├── run.py                  # Script to run the full analysis
 ├── requirements.txt        # Python dependencies
 └── README.md               # This file
+```
 
 ---
 
-##  Tools and Libraries
+###  Tools and Libraries
 
 - **numpy** for numerical operations
 - **pandas** for data manipulation
 - **matplotlib** and **seaborn** for visualization
 
-  ---
+---
 
-## How to install the required libraries
+### How to install the required libraries
 ```bash
 pip install -r requirements.txt
 ```
 
 ---
 
-## How to Run
+### How to Run
 
-### From the Command Line
-
-Run the full analysis pipeline (load, clean, analyze, visualize):
+From the Command Line or Terminal, run the full analysis pipeline (load, clean, analyze, visualize):
 
 ```bash
 python run.py
@@ -66,6 +66,6 @@ python run.py
 ### Using Jupyter Notebook
 
 1. Activate your Python environment.
-2. Start Jupyter Notebook:
+2. Start Jupyter Notebook.
 3. Open `notebooks/analysis.ipynb`
 4. Run all cells — the notebook includes charts, tables, and explanations.
